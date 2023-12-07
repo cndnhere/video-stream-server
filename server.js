@@ -12,7 +12,7 @@ app.use(function(req, res, next) {
 app.use(express.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/SahosoftVideoDB', {
+mongoose.connect('mongodb+srv://cnsnsoni:cndn123@cluster0.3swslzn.mongodb.net/SahosoftVideoDB', {
   useNewUrlParser: true,
 })
   .then(() => console.log('Connected to MongoDB'))
