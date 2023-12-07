@@ -21,7 +21,7 @@ mongoose.connect('mongodb+srv://cnsnsoni:cndn123@cluster0.3swslzn.mongodb.net/Sa
 // Routes
 app.use('/api', itemRoutes);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
